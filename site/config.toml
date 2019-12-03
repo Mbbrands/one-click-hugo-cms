@@ -1,5 +1,4 @@
 baseurl = "/"
-languageLang = "en"
 languageCode = "en-us"
 title = "Military Pay Charts, Benefits and More"
 [permalinks]
