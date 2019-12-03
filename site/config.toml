@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Military Pay Charts, Benefits and More"
+title = "Military Hacks"
 [permalinks]
   blog = "/:slug/"
   page = "/:slug/"
