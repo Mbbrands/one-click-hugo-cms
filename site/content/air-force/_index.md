@@ -1,6 +1,7 @@
 ---
-title: Our Coffee
+title: Air Force
 type: products
+slug: air-force
 image: /img/products-jumbotron.jpg
 heading: What we offer
 description: >-

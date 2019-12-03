@@ -1,5 +1,6 @@
 ---
-title: "Values"
+title: Navy
+slug: navy
 image: /img/about-jumbotron.jpg
 values:
   - heading: "Shade-grown coffee"
