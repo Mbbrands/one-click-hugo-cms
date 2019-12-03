@@ -1,13 +1,53 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+<!-- BEGIN top banner -->
+<div class="bg-green w-100 pv2 tc">
+<div class="ph3 mw7 center">
+	<span class="f6 b lh-title mb2 white">Save 30% on our ASVAB study guide. Use code GET30OFF when you checkout. <a href="#">Details</a>
+</span>
+</div>
+</div>
+<!-- END top banner -->
+<!-- BEGIN hero -->
+<div class="bg-navy pv5 tc">
+	<div class="ph3 mw7 center">
 
-{{ partial "short-text" .Params.blurb}}
+		<div class="flex-l mhn2-l">
+			<div class="w-100-l ph2-l center">
+				<h2 class="f1 b lh-title mb2 white">Get paid what you deserve for your military service</h2>
+				
+				<span class="f5 lh-title mb2 pv2 grey-2">Follow our simple 3-step system to six figures and beyond</span>
+<br>
+				<a href="#" target="_blank" class="btn ma2">Get Started</a>
+			</div>
 
-{{ partial "2-up" .Params }}
+		</div>
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+	</div>
+</div>
+<!-- END hero -->
+<!-- BEGIN hero -->
+<div class="bg-grey-1 pv4">
+	<div class="ph3 mw7 center">
+
+		<div class="flex-l mhn2-l">
+			<div class="w-60-l ph2-l">
+				<h2 class="f2 b lh-title mb2">How to Get an Army Promotion Without Doing Hundreds of Sit-Ups or Going Back to College</h2>
+
+				<a href="https://shop.militaryhacks.com/promotion-points-workbook" target="_blank" class="btn ma2">Download The Guide</a>
+			</div>
+
+			<div class="w-40-l ph2-l">
+				<img src="img/ppw_tablet_preview_01.png" alt="" class="mb3">
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- END hero -->
 
 {{ partial "blog" . }}
+
+
 
 {{ end }}
